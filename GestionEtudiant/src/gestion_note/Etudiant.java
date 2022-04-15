@@ -17,7 +17,7 @@ public class Etudiant implements Comparable<Etudiant> {
 
 		}
 	public void setnote(double note) {
-		return this.note=15;
+		 this.note=note;
 	}
 		
 	}

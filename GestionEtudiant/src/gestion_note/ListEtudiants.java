@@ -11,7 +11,7 @@ public class ListEtudiants extends  ArrayList<Etudiant> {
 		ListEtudiants e=new ListEtudiants();
 		for (int i=0;i<this.size();i++) {
 			if (c.estVrai(this.get(i)) {
-				e=e.add(this.get(i));
+				e.add(this.get(i));
 				
 			}
 			
