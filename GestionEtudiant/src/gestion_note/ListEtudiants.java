@@ -8,7 +8,16 @@ public class ListEtudiants extends  ArrayList<Etudiant> {
 		return super.add(e);
 	}
 	public ListEtudiants filtrer(Condition c) {
-		if()
+		ListEtudiants e=new ListEtudiants();
+		for (int i=0;i<this.size();i++) {
+			if (c.estVrai(this.get(i)) {
+				e=e.add(this.get(i));
+				
+			}
+			
+		}
+		return e;
+		
 	}
 	
 
