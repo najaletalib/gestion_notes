@@ -10,6 +10,13 @@ public class mainnote {
 		e1.setnote(15);
 		e2.setnote(12);
 		e3.setnote(16);
+		ListEtudiants listeetudiants =new ListEtudiants();
+		listeetudiants.add(e1);
+		listeetudiants.add(e2);
+		listeetudiants.add(e3);
+		
+		
+		
 		
 		
 

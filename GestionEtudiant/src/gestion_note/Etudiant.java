@@ -1,6 +1,5 @@
 package gestion_note;
 
-import aiac.gi18.java.complexe.Complexe;
 
 public class Etudiant implements Comparable<Etudiant> {
 	private int id;
@@ -20,12 +19,12 @@ public class Etudiant implements Comparable<Etudiant> {
 		 this.note=note;
 	}
 		
-	}
+	
 	public String toString() {
 		return "vnom est:"+this.nom+"vnote est :"+this.note;
 	}
 	public boolean equals(Object obj) {
-		 if (! (obj instanceof Etudiant) {
+		 if (! (obj instanceof Etudiant)) {
 			 return false;
 		 }
 		 return ((Etudiant)obj).id==this.id;
